@@ -5,10 +5,10 @@ const Task = (props) => {
   return (
    <View style={styles.items}>
     <View style = {styles.itemsLeft}>
-        <TouchableOpacity style= {styles.circle}></TouchableOpacity>
+        <TouchableOpacity style= {styles.square }></TouchableOpacity>
         <Text style= {styles.itemText}>{props.text}</Text>
     </View>
-    <View style={styles.square}> 
+    <View style={styles.circle}> 
 
     </View>
    
@@ -39,7 +39,7 @@ const Task = (props) => {
         backgroundColor:"#EE82EE",
         opacity:0.6,
         borderRadius:50,
-        marginRight:15,
+        
     },
     text:{
         width:"80%",
@@ -49,7 +49,8 @@ const Task = (props) => {
         height:20,
         borderWidth:2,
         borderRadius:5,
-        borderColor:"#EE82EE"
+        borderColor:"#EE82EE",
+        marginRight:15,
     },
  })
 export default Task

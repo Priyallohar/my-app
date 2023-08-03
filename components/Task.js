@@ -31,26 +31,28 @@ const Task = (props) => {
         flexDirection:'row',
         alignItems:'center',
         flexWrap:"wrap",
-
     },
     circle:{
         width:10,
         height:10,
-        backgroundColor:"#EE82EE",
-        opacity:0.6,
-        borderRadius:50,
+        
+        borderWidth:2,
+        borderRadius:5,
+        borderColor:"#DDA0DD",
+        
         
     },
-    text:{
+    itemText:{
         width:"80%",
     },
     square:{
         width:20,
         height:20,
-        borderWidth:2,
-        borderRadius:5,
-        borderColor:"#EE82EE",
+        backgroundColor:"#DDA0DD",
+        opacity:0.6,
         marginRight:15,
+        borderRadius:5,
+       
     },
  })
 export default Task
